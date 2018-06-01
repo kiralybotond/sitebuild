@@ -31,3 +31,17 @@
     margin: auto;
     display: block;
 }
+
+.container-4 {
+    background-image: url("/sitebuild/img/bg-cta.jpg");
+}
+
+#container-4div {
+    font-family: 'Muli', sans-serif;
+    color: ivory;
+    font-size: 40px;
+}
+
+#container-4button {
+    color: ivory;
+}
