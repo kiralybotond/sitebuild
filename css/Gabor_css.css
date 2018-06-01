@@ -1,0 +1,33 @@
+.top-nav a:first-child {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.top-nav a {
+    font-family: 'Catamaran', sans-serif;
+    float: right;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a:hover {
+    color: white;
+}
+
+.top-nav .icon {
+    display: none;
+}
+
+.top-nav {
+    max-width: 1170px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
