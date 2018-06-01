@@ -34,14 +34,43 @@
 
 .container-4 {
     background-image: url("/sitebuild/img/bg-cta.jpg");
+    display: block;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 500px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container-4div {
+    top: 100px;
     font-family: 'Muli', sans-serif;
+    left: 100px;
     color: ivory;
     font-size: 40px;
+    display: block;
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
 }
 
 #container-4button {
+    top: 100px;
+    position: relative;
+    left: 235px;
     color: ivory;
+    background-color: transparent;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    border: 2px solid ivory;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    padding: 12px 35px;
+    text-decoration: none;
 }
