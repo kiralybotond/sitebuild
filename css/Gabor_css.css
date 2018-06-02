@@ -44,6 +44,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 #container-4div {
@@ -78,4 +79,23 @@
 .hatterSzin {
     background-color: rgba(100, 100, 100, 0.3);
     height: 100%;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .top-nav {
+        width: 70%;
+        padding: 0;
+    }
+    .container-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .top-nav,
+    .container-4 {
+        width: 100%;
+    }
 }
