@@ -33,13 +33,39 @@ h6 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
 }
 
+.navPlacement {
+    z-index: 1000;
+}
+
 body {
+    width: 100%;
+}
+
+.main {
     max-width: 1170px;
     margin: auto;
 }
 
-img {
+/* img {
     max-width: 100%;
+} */
+
+.container-1-bgColor {
+    background: linear-gradient(to right, #da2431, #7a4397);
+}
+
+.container-1-bgImage {
+    background-image: url('../img/bg-pattern.png');
+    background-repeat: repeat;
+}
+
+.container-1-sub {
+    display: inline-block;
+    width: 45%;
+}
+
+.c1-img {
+    width: 50px;
 }
 
 footer {

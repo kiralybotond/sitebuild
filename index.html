@@ -13,22 +13,33 @@
 </head>
 
 <body>
-  <div class="top-nav" id="myTopnav">
-    <div class="menuContainer">
-      <a href="#valami">Start Bootsrap</a>
-      <a href="#container-5">Contact</a>
-      <a href="#container-3">Feature</a>
-      <a href="#container-2">Download</a>
+  <nav>
+    <div class="top-nav navPlacement" id="myTopnav">
+      <div class="main">
+        <div class="menuContainer">
+          <a href="#valami">Start Bootsrap</a>
+          <a href="#container-5">Contact</a>
+          <a href="#container-3">Feature</a>
+          <a href="#container-2">Download</a>
+        </div>
+      </div>
     </div>
-  </div>
-
+  </nav>
   <main>
     <container class="container-1">
-      <div>New Age is an app landing page that will help you beautifully showcase your mobile app, or anything else!</div>
-      <button>Start now for free!</button>
-      <div>
-        <img src="http://www.vodafone.co.nz/MEDIA_ProductCatalog/m1650104_iPhoneX-spacegrey-frameV2.png" alt="">
-        <img src="img/demo-screen-1.jpg" alt="">
+      <div class="container-1-bgColor">
+        <div class="container-1-bgImage">
+          <div class="main">
+            <div class="container-1-sub">
+              <div>New Age is an app landing page that will help you beautifully showcase your mobile app, or anything else!</div>
+              <button class="container-button" id="container-1button">Start now for free!</button>
+            </div>
+            <div class="container-1-sub">
+              <img class="c1-img" src="http://www.vodafone.co.nz/MEDIA_ProductCatalog/m1650104_iPhoneX-spacegrey-frameV2.png" alt="">
+              <img class="c1-img" src="img/demo-screen-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </container>
     <container class="container-2" id="container-2">
@@ -67,9 +78,11 @@
     </container>
     <div class="container-4">
       <div class="hatterSzin">
-        <div id="container-4div">Stop waiting
-          <br>Start building.</div>
-        <button id="container-4button">Let's get started!</button>
+        <div class="main">
+          <div id="container-4div">Stop waiting
+            <br>Start building.</div>
+          <button class="container-button" id="container-4button">Let's get started!</button>
+        </div>
       </div>
     </div>
     <container class="container-5" id="container-5">
@@ -94,12 +107,16 @@
     </container>
   </main>
   <footer>
-    <p>&#169; Your website 2018. All rights reserved.
-      <br>
-      <span id="footerPrivacy">Privacy</span>
-      <span id="footerTerms">Terms</span>
-      <span id="footerFaq">FAQ</span>
-    </p>
+    <div class="footer-bg">
+      <div class="main">
+        <p>&#169; Your website 2018. All rights reserved.
+          <br>
+          <span id="footerPrivacy">Privacy</span>
+          <span id="footerTerms">Terms</span>
+          <span id="footerFaq">FAQ</span>
+        </p>
+      </div>
+    </div>
   </footer>
   <div id="modalPrivacy" class="modal">
     <div class="modal-content">
@@ -143,7 +160,6 @@
       </div>
     </div>
   </div>
-
   <script src="js/main.js"></script>
   <script src="js/Gabor_js.js"></script>
 </body>

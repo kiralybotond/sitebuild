@@ -24,11 +24,9 @@
 }
 
 .top-nav {
-    max-width: 1170px;
     position: fixed;
     top: 0px;
     width: 100%;
-    margin: auto;
     display: block;
 }
 
@@ -49,9 +47,7 @@
     background-color: rgba(100, 100, 100, 0.3);
     background-image: url("/img/bg-cta.jpg");
     display: block;
-    max-width: 1170px;
     position: relative;
-    margin: 0 auto;
     /* border-bottom: 500px; */
     height: 400px;
     background-position: center;
@@ -71,7 +67,7 @@
     margin: 0 auto;
 }
 
-#container-4button {
+.container-button {
     top: 100px;
     position: relative;
     left: 20%;
@@ -87,11 +83,26 @@
     font-size: 13px;
     padding: 12px 35px;
     text-decoration: none;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 300ms;
+    transition-property: background-color;
+    transition-duration: 300ms
+}
+
+.container-button:hover {
+    background-color: rgb(255, 196, 2);
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 300ms;
+    transition-property: background-color;
+    transition-duration: 300ms
 }
 
 #container-4button:hover {
     border: 2px solid rgb(255, 196, 2);
-    color: rgb(255, 196, 2);
+    -webkit-transition-property: border;
+    -webkit-transition-duration: 300ms;
+    transition-property: border;
+    transition-duration: 300ms
 }
 
 .hatterSzin {
