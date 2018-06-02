@@ -48,11 +48,10 @@
 #container-4div {
     top: 100px;
     font-family: 'Muli', sans-serif;
-    left: 100px;
+    left: 200px;
     color: ivory;
     font-size: 40px;
     display: block;
-    max-width: 900px;
     position: relative;
     margin: 0 auto;
 }
@@ -70,7 +69,7 @@
     display: inline-block;
     cursor: pointer;
     font-family: 'Muli', sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     padding: 12px 35px;
     text-decoration: none;
 }
