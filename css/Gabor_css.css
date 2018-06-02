@@ -40,7 +40,7 @@
     background-color: transparent;
 }
 
-.kiserlet {
+.menuContainer {
     max-width: 900px;
     margin: auto;
 }
@@ -52,7 +52,7 @@
     max-width: 1170px;
     position: relative;
     margin: 0 auto;
-    border-bottom: 500px;
+    /* border-bottom: 500px; */
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,9 +61,9 @@
 }
 
 #container-4div {
-    top: 100px;
+    top: 25%;
     font-family: 'Muli', sans-serif;
-    left: 200px;
+    left: 20%;
     color: ivory;
     font-size: 40px;
     display: block;
@@ -74,7 +74,7 @@
 #container-4button {
     top: 100px;
     position: relative;
-    left: 200px;
+    left: 20%;
     color: ivory;
     background-color: transparent;
     -moz-border-radius: 42px;
@@ -89,6 +89,11 @@
     text-decoration: none;
 }
 
+#container-4button:hover {
+    border: 2px solid rgb(255, 196, 2);
+    color: rgb(255, 196, 2);
+}
+
 .hatterSzin {
     background-color: rgba(100, 100, 100, 0.3);
     height: 100%;
@@ -97,11 +102,19 @@
 @media only screen and (max-width:800px) {
     /* For tablets: */
     .top-nav {
-        width: 70%;
+        width: 100%;
         padding: 0;
     }
     .container-4 {
         width: 100%;
+    }
+    #container-4div {
+        top: 20%;
+        position: absolute;
+    }
+    #container-4button {
+        top: 40%;
+        position: absolute;
     }
 }
 
@@ -110,5 +123,12 @@
     .top-nav,
     .container-4 {
         width: 100%;
+    }
+    #container-4div {
+        position: absolute;
+    }
+    #container-4button {
+        top: 40%;
+        position: absolute;
     }
 }
