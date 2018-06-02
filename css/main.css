@@ -33,6 +33,10 @@ h6 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
 }
 
+.navPlacement {
+    z-index: 1000;
+}
+
 body {
     width: 100%;
 }
