@@ -33,7 +33,8 @@
 }
 
 .container-4 {
-    background-image: url("/sitebuild/img/bg-cta.jpg");
+    background-color: rgba(100, 100, 100, 0.3);
+    background-image: url("/img/bg-cta.jpg");
     display: block;
     max-width: 1170px;
     position: relative;
@@ -59,7 +60,7 @@
 #container-4button {
     top: 100px;
     position: relative;
-    left: 235px;
+    left: 200px;
     color: ivory;
     background-color: transparent;
     -moz-border-radius: 42px;
@@ -72,4 +73,9 @@
     font-size: 13px;
     padding: 12px 35px;
     text-decoration: none;
+}
+
+.hatterSzin {
+    background-color: rgba(100, 100, 100, 0.3);
+    height: 100%;
 }
