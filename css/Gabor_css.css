@@ -16,7 +16,7 @@
 }
 
 .top-nav a:hover {
-    color: white;
+    color: rgb(255, 196, 2);
 }
 
 .top-nav .icon {
@@ -24,12 +24,25 @@
 }
 
 .top-nav {
-    max-width: 900px;
+    max-width: 1170px;
     position: fixed;
     top: 0px;
     width: 100%;
     margin: auto;
     display: block;
+}
+
+.nav-colored {
+    background-color: white;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
+.kiserlet {
+    max-width: 900px;
+    margin: auto;
 }
 
 .container-4 {
