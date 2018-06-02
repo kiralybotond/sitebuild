@@ -38,6 +38,15 @@ body {
     margin: auto;
 }
 
+.container-1-bgColor {
+    background: linear-gradient(to right, #da2431, #7a4397);
+}
+
+.container-1-bgImage {
+    background-image: url('../img/bg-pattern.png');
+    background-repeat: repeat;
+}
+
 img {
     max-width: 100%;
 }
