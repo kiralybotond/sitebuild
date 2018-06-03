@@ -122,10 +122,12 @@
     #container-4div {
         top: 20%;
         position: absolute;
+        font-size: 6vw;
     }
     #container-4button {
         top: 40%;
         position: absolute;
+        font-size: 6vw;
     }
 }
 
@@ -136,10 +138,12 @@
         width: 100%;
     }
     #container-4div {
+        font-size: 4vw;
         position: absolute;
     }
     #container-4button {
         top: 40%;
         position: absolute;
+        font-size: 4vw;
     }
 }
