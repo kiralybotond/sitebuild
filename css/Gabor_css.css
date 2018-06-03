@@ -1,9 +1,15 @@
+.navclass {
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+}
+
 .top-nav a:first-child {
     float: left;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.3vw;
 }
 
 .top-nav a {
@@ -12,34 +18,33 @@
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.1vw;
 }
 
 .top-nav a:hover {
     color: rgb(255, 196, 2);
 }
 
-.top-nav .icon {
-    display: none;
-}
-
 .top-nav {
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 1170px;
     display: block;
+    margin: auto;
 }
 
 .nav-colored {
+    max-width: 100%;
     background-color: white;
 }
 
 .nav-transparent {
+    max-width: 100%;
     background-color: transparent;
 }
 
 .menuContainer {
-    max-width: 900px;
+    width: 70%;
     margin: auto;
 }
 
@@ -48,16 +53,16 @@
     background-image: url("/img/bg-cta.jpg");
     display: block;
     position: relative;
-    /* border-bottom: 500px; */
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
+    padding: 0;
 }
 
 #container-4div {
-    top: 25%;
+    top: 100px;
     font-family: 'Muli', sans-serif;
     left: 20%;
     color: ivory;
@@ -110,14 +115,20 @@
     height: 100%;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:750px) {
     /* For tablets: */
+    .top-nav a:first-child {
+        font-size: 2vw;
+    }
+    .top-nav a {
+        font-size: 1.75vw;
+    }
     .top-nav {
-        width: 100%;
+        max-width: 100%;
         padding: 0;
     }
     .container-4 {
-        width: 100%;
+        max-width: 100%;
     }
     #container-4div {
         top: 20%;
@@ -129,11 +140,17 @@
     }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:450px) {
     /* For mobile phones: */
+    .top-nav a:first-child {
+        font-size: 3vw;
+    }
+    .top-nav a {
+        font-size: 2.75vw;
+    }
     .top-nav,
     .container-4 {
-        width: 100%;
+        max-width: 100%;
     }
     #container-4div {
         position: absolute;

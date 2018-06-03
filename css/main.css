@@ -38,8 +38,13 @@ h6 {
 }
 
 body {
+<<<<<<< HEAD
     width: 100%;
     margin: 0;
+=======
+    max-width: 1170px;
+    margin: auto;
+>>>>>>> ffb90341ef5e0605f4b88102192b8709a858ce22
 }
 
 .main {
