@@ -39,6 +39,7 @@ h6 {
 
 body {
     width: 100%;
+    margin: 0;
 }
 
 .main {
@@ -87,9 +88,33 @@ body {
 .phone-screen {
     position: relative;
     top: -593px;
-    left: 38px;
     width: 267px;
     z-index: 11;
+}
+
+.phone-screen-1 {
+    left: 38px;
+}
+
+.container-3 {
+    text-align: center;
+}
+
+.container-3 hr {
+    width: 100px;
+    color: #e7e7e7;
+}
+
+.c3sub-left,
+.c3sub-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.embedRow {
+    float: left;
+    width: 50%;
 }
 
 footer {
