@@ -1,5 +1,5 @@
 .navclass {
-    width: 1170px;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -28,7 +28,7 @@
 .top-nav {
     position: fixed;
     top: 0px;
-    width: 1170px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -44,7 +44,7 @@
 }
 
 .menuContainer {
-    width: 70%;
+    width: 1000px;
     margin: auto;
 }
 
@@ -115,6 +115,13 @@
     height: 100%;
 }
 
+@media only screen and (max-width:1000px) {
+    .menuContainer {
+        width: 800px;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width:750px) {
     /* For tablets: */
     .top-nav a:first-child {
@@ -127,16 +134,22 @@
         max-width: 100%;
         padding: 0;
     }
+    .menuContainer {
+        width: 500px;
+        margin: auto;
+    }
     .container-4 {
         max-width: 100%;
     }
     #container-4div {
         top: 20%;
         position: absolute;
+        font-size: 5vw;
     }
     #container-4button {
         top: 40%;
         position: absolute;
+        font-size: 2.5vw;
     }
 }
 
@@ -147,6 +160,10 @@
     }
     .top-nav a {
         font-size: 2.75vw;
+    }
+    .menuContainer {
+        width: 350px;
+        margin: auto;
     }
     .top-nav,
     .container-4 {
