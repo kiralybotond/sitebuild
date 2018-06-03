@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Catamaran";
-    src: url("fonts/Catamaran/Catamaran-Regular.ttf") format("truetype");
+    src: url("../fonts/Catamaran/Catamaran-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+    src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Muli";
-    src: url("fonts/Muli/Muli-Regular.ttf") format("truetype");
+    src: url("../fonts/Muli/Muli-Regular.ttf") format("truetype");
 }
 
 /*Gombok szövege, felső menü linkek{
@@ -33,6 +33,11 @@ h6 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
 }
 
+h2 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
 .navPlacement {
     z-index: 1000;
 }
@@ -46,10 +51,6 @@ body {
     max-width: 1170px;
     margin: auto;
 }
-
-/* img {
-    max-width: 100%;
-} */
 
 .container-1-bgColor {
     background: linear-gradient(to right, #da2431, #7a4397);
@@ -67,6 +68,11 @@ body {
     vertical-align: middle;
 }
 
+#container-1button {
+    margin: 0;
+    left: 0;
+}
+
 .c1sub-left {
     font-size: 40px;
     color: white;
@@ -81,19 +87,20 @@ body {
 
 .phone-img {
     position: relative;
-    width: 350px;
+    width: 304px;
     z-index: 10;
 }
 
 .phone-screen {
     position: relative;
-    top: -593px;
+    top: -550px;
     width: 267px;
+    border-radius: 4px;
     z-index: 11;
 }
 
 .phone-screen-1 {
-    left: 38px;
+    left: 19px;
 }
 
 .container-3 {
