@@ -1,0 +1,46 @@
+section.sajat {
+	background: #fdcc52;
+	text-align: center;
+	position: relative;
+	padding: 150px 0;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+}
+
+p.elsomondat {
+    color: black;
+    text-align: center;
+	font-size: 70px;
+	margin-top: 0;
+	font-family: Catamaran,Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	letter-spacing: 1px;
+	margin-bottom: .5rem;
+	line-height: 1.2;
+	box-sizing: border-box;
+}
+
+p.masodikmondat {
+    color: black;
+    text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-family: Muli,Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+a.storelogo-link {
+	vertical-align: middle;
+	border-style: none;
+}
+
+img.storelogok {
+	height: 60px;
+	vertical-align: middle;
+	border-style: none;
+
+	
+}
