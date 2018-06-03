@@ -4,24 +4,26 @@
     text-align: center;
 }
 
-.top-nav a:first-child {
+.menuContainer a:first-child {
     float: left;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
 }
 
-.top-nav a {
+.menuContainer a {
     font-family: 'Catamaran', sans-serif;
     float: right;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-size: 0.9vw;
+    letter-spacing: 1px;
 }
 
-.top-nav a:hover {
+.menuContainer a:hover {
     color: rgb(255, 196, 2);
 }
 
@@ -115,27 +117,35 @@
     height: 100%;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1300px) {
     .menuContainer {
         width: 800px;
         margin: auto;
     }
 }
 
+@media only screen and (max-width:1000px) {
+    .menuContainer {
+        width: 700px;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width:750px) {
     /* For tablets: */
-    .top-nav a:first-child {
+    .menuContainer a:first-child {
         font-size: 2vw;
     }
-    .top-nav a {
+    .menuContainer a {
         font-size: 1.75vw;
     }
     .top-nav {
         max-width: 100%;
         padding: 0;
+        text-align: center;
     }
     .menuContainer {
-        width: 500px;
+        width: 400px;
         margin: auto;
     }
     .container-4 {
@@ -153,16 +163,23 @@
     }
 }
 
+@media only screen and (max-width:600px) {
+    .menuContainer {
+        width: 450px;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width:450px) {
     /* For mobile phones: */
-    .top-nav a:first-child {
+    .menuContainer a:first-child {
         font-size: 3vw;
     }
-    .top-nav a {
+    .menuContainer a {
         font-size: 2.75vw;
     }
     .menuContainer {
-        width: 350px;
+        width: 300px;
         margin: auto;
     }
     .top-nav,
