@@ -1,0 +1,14 @@
+.container-5 {
+    background-color: #fdc942;
+    content: "\f000";
+    opacity: 0.9;
+    display: block;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    height: 250px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
